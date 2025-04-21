@@ -40,8 +40,18 @@ This is a **living project**, designed to evolve with my learning journey. Expec
 
 ## 📂 Folder Structure (simplified)
 
-``` sandbox-site/ │ ├── index.html ├── style/ │ └── main.css ├── assets/ │ ├── images/ │ └── fonts/ ├── scripts/ ← JS goes here later ├── README.md └── .gitignore ```
-
+```
+sandbox-site/
+├── index.html
+├── style/
+│   └── main.css
+├── assets/
+│   ├── images/
+│   └── fonts/
+├── scripts/        ← JS goes here later
+├── README.md
+└── .gitignore
+```
 ---
 
 ## 📅 Roadmap
