@@ -13,11 +13,45 @@
     padding: 1rem;
   }
   
-  /* Layout helpers */
-  header, footer {
+    /* Site Layout */
+  .layout {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    padding: 0% 7%;
+    
+    grid-template-areas: 
+    "header header"
+    "sidebar main"
+    "sidebar main"
+    "footer footer";
+  }
+  header {
+    grid-area: header;
+    border-bottom: 1px solid gray;
     text-align: center;
-    padding: 1rem;
-    background-color: #f0f0f0;
+  }
+  aside {
+    grid-area: sidebar;
+    border-right: 1px solid grey;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    padding: 2px;
+  }
+  main {
+    grid-area: main;
+    text-align: center;
+    padding: 0.5%;
+    border-bottom: 1px solid gray;
+  }
+  footer {
+    grid-area: footer;
+  }
+  /* Layout helpers */
+
+  footer {
+    font-size: 0.8rem;
+    padding: 2%;
+    
   }
   
   /* More styles for sections go here */
