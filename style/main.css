@@ -43,6 +43,11 @@
     padding: 0.5%;
     border-bottom: 1px solid gray;
   }
+  .forum1 {
+    border: 2px solid black;
+    padding: 2%;
+    text-align: left;
+  }
   footer {
     grid-area: footer;
   }
