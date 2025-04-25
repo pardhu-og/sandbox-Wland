@@ -51,6 +51,7 @@
 
   #Profile_cards {
     background-color: floralwhite;
+    border: 2px solid black;
   }
 
   .Profile_cards_container {
@@ -68,7 +69,7 @@
   .Profilecards {
       font-size: larger;
       width: 250px;
-      background-color: aliceblue;
+      
       border-radius: 20px;
       margin: 4%;
       transition:all 0.3s ease;
@@ -76,6 +77,7 @@
   
   .Profilecards:hover {
     transform:scale(1.1);
+    cursor: pointer;
   }
 
   .Profilecards img {
@@ -88,7 +90,11 @@
   }
 
   .Profilecard2 img {
-    object-position: top;
+    object-fit: fill;
+  }
+
+  .Profilrcard4 img {
+    object-position: center;
   }
 
 
