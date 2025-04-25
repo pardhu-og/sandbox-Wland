@@ -48,6 +48,51 @@
     padding: 2%;
     text-align: left;
   }
+
+  #Profile_cards {
+    background-color: floralwhite;
+  }
+
+  .Profile_cards_container {
+    background-color: floralwhite;
+    border-radius: 20px;
+    padding: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-family: cursive;
+    
+  }
+
+  .Profilecards {
+      font-size: larger;
+      width: 250px;
+      background-color: aliceblue;
+      border-radius: 20px;
+      margin: 4%;
+      transition:all 0.3s ease;
+  }
+  
+  .Profilecards:hover {
+    transform:scale(1.1);
+  }
+
+  .Profilecards img {
+    border-radius: 20px;
+    margin: 5px;
+    width: 200px;
+    height: 200px;
+    object-fit:cover;
+    
+  }
+
+  .Profilecard2 img {
+    object-position: top;
+  }
+
+
+  
   footer {
     grid-area: footer;
   }
