@@ -108,7 +108,7 @@
   footer {
     grid-area: footer;
   }
-  /* Layout helpers */
+  
 
   footer {
     font-size: 0.8rem;
@@ -116,4 +116,12 @@
     
   }
   
-  /* More styles for sections go here */
+  
+  @media (max-width:768px) {
+    .Profilecards:hover {
+      transform: none;
+    }
+    .Profilecards summary:hover {
+      color: black;
+    }
+  }
